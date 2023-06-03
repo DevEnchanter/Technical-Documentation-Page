@@ -1,0 +1,109 @@
+/* Set the base styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the navbar */
+  #navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    gap: 2rem;
+  }
+  
+  /* Styles for the navbar header */
+  #navbar header {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+  }
+  
+  /* Styles for the navigation links */
+  .nav-link {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+  }
+  
+  /* Styles for the main content area */
+  #main-doc {
+    padding: 20px;
+    margin-left: 330px;
+  }
+  
+  /* Styles for each main section */
+  .main-section {
+    margin-bottom: 40px;
+  }
+  
+  /* Styles for the headers within main sections */
+  .main-section header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for paragraphs within main sections */
+  .main-section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for unordered lists within main sections */
+  .main-section ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  /* Styles for code blocks */
+  .code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Styles for <pre> tags */
+  pre {
+    margin: 0;
+  }
+  
+  /* Styles for code within <pre> tags */
+  pre code {
+    display: block;
+    padding: 10px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Media Query for responsive design */
+  @media (max-width: 768px) {
+    /* Adjust navbar styles for smaller screens */
+    #navbar {
+      position: static;
+      width: auto;
+      height: auto;
+    }
+  
+    /* Adjust main-doc margin for smaller screens */
+    #main-doc {
+      margin-left: 0;
+    }
+  }
+  

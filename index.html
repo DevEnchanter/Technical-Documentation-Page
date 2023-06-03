@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <!-- Navbar header -->
+    <header>JS Documentation</header>
+    <!-- Navbar links -->
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+    <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    <a class="nav-link" href="#Hello_world">Hello world</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#READ_ME"> READ ME</a>
+  </nav>
+
+  <!-- Main content -->
+  <main id="main-doc">
+    <!-- Introduction section -->
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a versatile and object-oriented scripting language that can run on various platforms. It is known for its lightweight and compact nature. When used within a host environment, such as a web browser, JavaScript interacts with the objects in that environment to enable programmatic control over them.</p>
+      <p>In addition to its core set of language elements like operators, control structures, and statements, JavaScript comes with a standard library of objects including Array, Date, and Math. Furthermore, JavaScript can be extended by adding extra objects to fulfill specific requirements. Here are a couple of examples:</p>
+      <ul>
+        <li>Client-side JavaScript expands the functionality of the core language by providing objects to manipulate and control web browsers and their Document Object Model (DOM). This enables applications to dynamically modify HTML forms, respond to user actions like mouse clicks and form input, and manage page navigation.</li>
+        <li>Server-side JavaScript extends the core language by offering objects that are useful for running JavaScript on servers. With server-side extensions, applications can interact with databases, maintain continuity of information across different invocations of the application, and perform file operations on the server.</li>
+      </ul>
+    </section>
+
+    <!-- What you should already know section -->
+    <section class="main-section" id="What_you_should_already_know">
+      <header>What you should already know</header>
+      <p>Before diving into this guide, it is assumed that you have a basic background in the following areas:</p>
+      <ul>
+        <li>General understanding of the Internet and the World Wide Web (WWW): Familiarity with how the Internet works and the concept of websites and web pages.</li>
+        <li>Good working knowledge of HyperText Markup Language (HTML): Understanding of HTML, which is used to structure and present content on web pages.</li>
+        <li>Some programming experience: It is beneficial to have prior experience with programming concepts and logic. If you are new to programming, you can explore introductory tutorials that are provided on the main page specifically dedicated to JavaScript.</li>
+      </ul>
+    </section>
+
+    <!-- JavaScript and Java section -->
+    <section class="main-section" id="JavaScript_and_Java">
+      <header>JavaScript and Java</header>
+      <p>While JavaScript and Java share some similarities, they also have fundamental differences. JavaScript bears resemblance to Java in terms of syntax, naming conventions, and basic control-flow constructs. In fact, JavaScript was originally named LiveScript before it was renamed to JavaScript to capitalize on Java's popularity.</p>
+      <p>However, JavaScript diverges from Java in several key aspects. Unlike Java, JavaScript does not have static typing and strong type checking. Instead, it employs a runtime system with a limited number of data types for numeric, Boolean, and string values. JavaScript adopts a prototype-based object model rather than the more traditional class-based model found in Java. This prototype-based approach allows for dynamic inheritance, where objects can vary in their inherited properties.</p>
+      <p>In JavaScript, functions hold a unique position. They are not bound by strict declarative requirements and can be used as properties of objects, functioning as loosely typed methods.</p>
+      <p>In contrast to the strict structure and requirements of Java, JavaScript offers a more flexible and free-form language experience. There is no obligation to declare all variables, classes, or methods. Concerns regarding access modifiers like public, private, or protected are not present in JavaScript, and interfaces are not implemented. Furthermore, explicit typing is not required for variables, parameters, or function return types.</p>
+      <p>Overall, JavaScript provides a more relaxed and dynamic programming environment compared to the stricter and more structured nature of Java.</p>
+    </section>
+
+    <!-- Hello world section -->
+    <section class="main-section" id="Hello_world">
+      <header>Hello world</header>
+      <p>To begin writing JavaScript code, follow these steps:</p>
+      <ul>
+        <li>Open the Scratchpad, which is a built-in tool in most web browsers.</li>
+        <li>Write the following code to display a "Hello world" message:</li>
+      </ul>
+      <pre><code class="javascript">
+function greetMe(yourName) {
+  alert("Hello " + yourName);
+}
+greetMe("World");
+      </code></pre>
+      <p>Select the code within the Scratchpad.</p>
+      <p>Press Ctrl+R (or the equivalent key combination) to run the code and see it in action within your web browser.</p>
+      <p>By executing the code, a dialog box will appear displaying the message "Hello World." This serves as a simple introduction to JavaScript and demonstrates how to create and call a function. Feel free to modify the code and explore further possibilities with JavaScript.</p>
+    </section>
+
+    <!-- Variables section -->
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>In JavaScript, variables are used to represent values within your application. These variables are given names, known as identifiers, which must follow certain rules.</p>
+      <p>An identifier in JavaScript should begin with a letter, underscore (_), or dollar sign ($). Subsequent characters can also be digits (0-9). It's important to note that JavaScript is case-sensitive, distinguishing between uppercase letters ("A" to "Z") and lowercase letters ("a" to "z").</p>
+      <p>In identifiers, you can utilize ISO 8859-1 or Unicode letters, including special characters like "å" and "ü". Additionally, Unicode escape sequences can be used as characters in identifiers. Here are some examples of valid identifier names: Number_hits, temp99, and _name.</p>
+    </section>
+
+    <!-- READ ME section -->
+    <section class="main-section" id="READ_ME">
+      <header>READ ME</header>
+      <p><strong>Disclaimer</strong>: The information provided on this website may not be accurate, up to date, or comprehensive. It is intended for educational purposes only and should not be considered as professional advice. The content presented here is a simplified overview of JavaScript concepts and may not cover all the intricacies of the language.</p>
+      <p>For further learning and to access the most current and detailed information about JavaScript, we recommend visiting the official Mozilla Developer Network (MDN) website at <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide</a>. MDN offers a comprehensive JavaScript Guide that provides in-depth explanations, examples, and references to help you gain a thorough understanding of the language.</p>
+      <p>Please note that JavaScript is a dynamic and evolving programming language, and new features and updates are regularly introduced. Therefore, it is important to consult reliable and up-to-date resources, such as the MDN JavaScript Guide, to stay informed about the latest developments and best practices.</p>
+      <p>Remember to always exercise caution and verify information from multiple sources before implementing any code or making critical decisions based on the information provided on this website.</p>
+    </section>
+  </main>
+</body>
+</html>
